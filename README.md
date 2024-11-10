@@ -4,11 +4,9 @@ This project is a **SOAP API** designed to manage and interact with a database o
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [Project Structure](#project-structure)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Packages](#packages)
-- [License](#license)
 
 ## Project Overview
 
