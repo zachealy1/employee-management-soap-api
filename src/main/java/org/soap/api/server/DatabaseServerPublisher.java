@@ -4,8 +4,9 @@
 package org.soap.api.server;
 
 import jakarta.xml.ws.Endpoint;
-import utility.Constants;
-import utility.CsvReadWrite;
+import org.soap.api.utils.Constants;
+import org.soap.api.utils.CsvReadWrite;
+
 
 /**
  * This class is responsible for publishing the DatabaseServer as a web service

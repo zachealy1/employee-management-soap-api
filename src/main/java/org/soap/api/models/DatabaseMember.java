@@ -4,11 +4,12 @@
 
 package org.soap.api.models;
 
-import exceptions.*;
 import jakarta.xml.bind.annotation.*;
-import utility.Constants;
-import utility.Converters;
-import utility.Validators;
+import org.soap.api.exceptions.*;
+import org.soap.api.utils.Constants;
+import org.soap.api.utils.Converters;
+import org.soap.api.utils.Validators;
+
 
 /**
  * The databaseMember class is responsible for representing a person stored in
@@ -83,8 +84,7 @@ public class DatabaseMember {
 	 */
 	public DatabaseMember(int index, String id, String firstName, String lastName, String sex, String email,
 			String phoneNumber, String dateOfBirth, String employmentType)
-			throws InvalidStaffIdException, InvalidSexException, InvalidEmailException, InvalidDateException,
-			InvalidPhoneNumberException {
+			throws InvalidStaffIdException, InvalidSexException, InvalidEmailException, InvalidDateException, InvalidPhoneNumberException {
 		this.setIndex(index);
 		this.setId(id);
 		this.setFirstName(firstName);

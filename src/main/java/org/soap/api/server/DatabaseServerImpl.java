@@ -3,13 +3,15 @@
  */
 package org.soap.api.server;
 
-import databaseMember.DatabaseMember;
-import exceptions.*;
+
 import jakarta.jws.WebService;
-import utility.Constants;
-import utility.Converters;
-import utility.CsvReadWrite;
-import utility.Validators;
+import org.soap.api.exceptions.*;
+import org.soap.api.models.DatabaseMember;
+import org.soap.api.utils.Constants;
+import org.soap.api.utils.Converters;
+import org.soap.api.utils.CsvReadWrite;
+import org.soap.api.utils.Validators;
+
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -24,7 +26,7 @@ import java.util.ArrayList;
  * @version 1.0
  * @since 2023-10-11
  */
-@WebService(endpointInterface = "databaseServer.DatabaseServer")
+@WebService(endpointInterface = "org.soap.api.server.DatabaseServer")
 public class DatabaseServerImpl implements DatabaseServer {
 
 	/**

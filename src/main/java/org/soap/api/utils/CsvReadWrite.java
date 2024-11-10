@@ -3,9 +3,10 @@
  */
 package org.soap.api.utils;
 
-import databaseMember.DatabaseMember;
-import databaseServer.DatabaseServerImpl;
-import exceptions.*;
+
+import org.soap.api.exceptions.*;
+import org.soap.api.models.DatabaseMember;
+import org.soap.api.server.DatabaseServerImpl;
 
 import java.io.File;
 import java.io.FileNotFoundException;

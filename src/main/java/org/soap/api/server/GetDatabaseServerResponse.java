@@ -3,7 +3,8 @@
  */
 package org.soap.api.server;
 
-import javax.xml.bind.annotation.*;
+import jakarta.xml.bind.annotation.*;
+
 
 /**
  * Represents a response from the DatabaseServer web service, indicating success

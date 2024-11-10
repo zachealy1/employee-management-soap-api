@@ -3,13 +3,14 @@
  */
 package org.soap.api.server;
 
-import databaseMember.DatabaseMember;
-import exceptions.*;
+
 import jakarta.jws.WebMethod;
 import jakarta.jws.WebParam;
 import jakarta.jws.WebService;
 import jakarta.jws.soap.SOAPBinding;
 import jakarta.jws.soap.SOAPBinding.Style;
+import org.soap.api.exceptions.*;
+import org.soap.api.models.DatabaseMember;
 
 import java.util.ArrayList;
 
@@ -96,7 +97,6 @@ public interface DatabaseServer {
 			@WebParam(name = "email") String email, @WebParam(name = "phoneNumber") String phoneNumber,
 			@WebParam(name = "dateOfBirth") String dateOfBirth,
 			@WebParam(name = "employmentType") String employmentType)
-			throws InvalidStaffIdException, InvalidSexException, InvalidEmailException, InvalidDateException,
-			InvalidPhoneNumberException;
+			throws InvalidStaffIdException, InvalidSexException, InvalidEmailException, InvalidDateException, InvalidPhoneNumberException;
 
 }

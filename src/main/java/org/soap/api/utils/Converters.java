@@ -3,11 +3,12 @@
  */
 package org.soap.api.utils;
 
-import databaseMember.EmploymentCategory;
-import databaseMember.Sex;
-import exceptions.InvalidDateException;
-import exceptions.InvalidEmploymentCategoryException;
-import exceptions.InvalidSexException;
+
+import org.soap.api.exceptions.InvalidDateException;
+import org.soap.api.exceptions.InvalidEmploymentCategoryException;
+import org.soap.api.exceptions.InvalidSexException;
+import org.soap.api.models.EmploymentCategory;
+import org.soap.api.models.Sex;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
