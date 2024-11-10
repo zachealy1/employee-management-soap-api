@@ -2,6 +2,8 @@
 
 This project is a **SOAP API** designed to manage and interact with a database of members, providing functionalities to handle user information, employment categories, and related validations. The application follows the Maven project structure and organises code into distinct packages for better maintainability and readability.
 
+**This work was completed as a part of my undergraduate degree in Applied Software Engineering at Swansea University, which CGI Inc. sponsored.**
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Installation](#installation)
